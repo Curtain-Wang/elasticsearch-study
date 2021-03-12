@@ -1,0 +1,11 @@
+server:
+  port: 8090
+#关闭Thymeleafd的缓存
+spring:
+  thymeleaf:
+    cache: false
+  elasticsearch:
+    rest:
+      host: 127.0.0.1
+      port: 9200
+      scheme: http
